@@ -137,6 +137,7 @@ img {
 
 }
 
+
 .sobre-info h1{
     color: #ff4600;
     text-transform: uppercase;
@@ -235,6 +236,9 @@ img {
 .portfolio-img .call {
     margin-bottom: 20px;
     padding-top: 0px!important;
+}
+.img-port{
+    border-radius:1em;
 }
 /*formação*/
 .formacao{
@@ -380,9 +384,7 @@ img {
         padding: 10px 21px;
         margin: 0 auto;
     }
-    .btn.btn-azul {
-        margin-left: -35px;
-    }
+    
     .skills-img img {
         width: 110px;
     }
@@ -421,17 +423,34 @@ img {
 }
 @media(max-width:359px){
     .menu-bg {
-        width: 350px;
+        top: 0;
+        width: 100%;
+        background: url(../img/bg.jpg);
+        width: 67vh;
     }
     .skills-container, .portfolio-container, .contato-container, .formacao, .sobre {
         max-width: 320px;
         padding: 60px 0px;
     }
+    .skills-img, .portfolio-img, .contato-img {
+        width: 21.2em;
+        margin-top: 20px;
+    }
+    .skills-grupo, .portfolio-grupo, .contato-grupo{
+        display: block;
+    }
+    .portfolio-img h3 {
+        color: #ff4600;
+        font-size: 1em;
+    }
+    .portfolio-img {
+        height: 25em;
+    }
+    .contato-img {
+        height: 14em;
+    }
     .btn {
         padding: 10px 18px;
-    }
-    .introducao-container {
-        height: 450px;
     }
     .introducao-container p {
         font-size: 16px;
@@ -455,5 +474,10 @@ img {
         text-align: center;
         font-size: 1.25em;
     }
-    
+    .footer {
+        background: #054f77;
+        align-items: center;
+        margin-top: 20px;
+        width: 360px;
+    }
 }
