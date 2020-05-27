@@ -213,11 +213,10 @@ img {
     box-shadow: 2px 4px 7px 1px #b4676b;
     border-radius: 1rem;
     width: 28em;
-    
 }
-
 .skills-img h2{
     text-align: center;
+    color:#B4676B;
     padding-top: 20px;
     text-transform: uppercase;
     
