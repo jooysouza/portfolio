@@ -406,6 +406,10 @@ img {
     .exp p, .sobre-info p{
         width: 321px;
     }
+    .portfolio-img h3{
+        color: #ff4600;
+        font-size: 1.125em;
+    }
     .introducao-container h2 {
         font-size: 1.875em;
     }
