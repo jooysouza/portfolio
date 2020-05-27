@@ -5,7 +5,7 @@ body, h1, h2, p, ul, li, a {
 
 body {
 	font-family: "Nunito", Helvetica, Arial, sans-serif;
-	color: #000;
+    color: #000;
 }
 
 ul {
@@ -33,6 +33,35 @@ img {
 .call p{
 	margin-bottom: 20px;
 }
+.btn {
+    border: 3px solid #B4676B;
+    background: #B4676B;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    border-radius: 5rem;
+}
+
+.btn:hover {
+	color: #fff;
+    border-color: #DF3661;
+    background: #DF3661;
+}
+
+.btn.btn-azul {
+    color: #fff;
+    background: #DF3661;
+    margin-left: 10px;
+    border-color: #DF3661;
+}
+.btn.btn-azul:hover{
+    border-color: #B4676B;
+    background: #B4676B;
+}
 
 /*menu*/
 .menu-bg {
@@ -43,9 +72,8 @@ img {
 }
 .menu-logo {
     padding: 31px;
-    max-width: 40vh;
+    max-width: 30vh;
 }
-
 .menu{
     max-width: 960px;
     margin: 0 auto;
@@ -73,7 +101,7 @@ img {
     text-transform: uppercase;
 }
 .menu-nav a:hover{
-	color: #054f77;
+	color: #DF3661;
 }
 
 /*Introducao*/
@@ -81,7 +109,10 @@ img {
 .introducao-container {
     margin: 0 auto;
     text-align: center;
-    height: 520px;
+    height: 330px;
+}
+.introducao-container span{
+    color: #fff;
 }
 .introducao-container img {
     margin: 0 auto;
@@ -89,57 +120,36 @@ img {
     margin-bottom: 30px;
 }
 .introducao-container h2{
-    color: #054f77;
+    color: #B4676B;
     font-size: 80px;
+    padding-top: 60px;
 }
 .introducao-container p{
-    color: #ff4600;
+    color: #fff;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 50px;
 }
-.btn {
-    border: 3px solid #054f77;
-    padding: 10px 30px;
-    color: #054f77;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: .1em;
-    border-radius: 5rem;
-}
 
-.btn:hover {
-	color: #ff4600;
-	border-color: #ff4600;
-}
-
-.btn.btn-azul {
-    color: #fff;
-    background: #054f77;
-    margin-left: 10px;
-}
-.btn.btn-azul:hover{
-    border-color: #287198;
-    background: #287198; ;
-   
-}
 .btn-principal{
     display: flex;
-   
+    padding-bottom: 20px;
 }
 /*SOBRE*/
 .sobre{
     max-width: 960px;
 	margin: 0 auto;
-	padding: 60px 0;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
 
 }
-
-
+.sobre img {
+    max-width: 300px;
+    margin: 0 auto;
+}
 .sobre-info h1{
-    color: #ff4600;
+    color: #DF3661;
     text-transform: uppercase;
     padding-bottom: 10px;
 }
@@ -151,7 +161,7 @@ img {
     width: 583px;
 }
 .exp h4{
-    color: #ff4600;
+    color: #DF3661;
 }
 .exp p{
     width: 469px;
@@ -160,6 +170,23 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.botao-vibration{
+    animation: pulse 3s infinite;
+    
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0.9);
+    }
+    70%{
+        transform: scale(1);
+       
+    }
+    100%{
+        transform: scale(0.9);
+        border-radius: 5rem;
+    }
+}
 /*Skills*/
 .skills-container{
     max-width: 960px;
@@ -167,7 +194,7 @@ img {
     padding: 60px 0;
 }
 .skills-container h1{
-    color: #054f77;
+    color: #DF3661;
     text-transform: uppercase;
 }
 .skills-grupo{
@@ -176,18 +203,19 @@ img {
     align-content: space-between;
 }
 .skills-container h1{
-    color: #054f77;
+    color: #DF3661;
     text-transform: uppercase;
     padding: 10px;
 }
 
 .skills-img {
-    margin: 10px;
-    box-shadow: 10px 11px 19px 5px #707070;
+    margin: 15px;
+    box-shadow: 2px 4px 7px 1px #b4676b;
     border-radius: 1rem;
     width: 28em;
     
 }
+
 .skills-img h2{
     text-align: center;
     padding-top: 20px;
@@ -211,7 +239,7 @@ img {
     padding: 60px 0;
 }
 .portfolio-container h1 {
-    color: #ff4600;
+    color: #DF3661;
     text-transform: uppercase;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -222,20 +250,31 @@ img {
     align-content: space-between;
 }
 .portfolio-img {
-    margin: 10px;
-    box-shadow: 10px 11px 19px 5px #707070;
+    margin: 15px;
+    box-shadow: 2px 4px 7px 1px #b4676b;
     border-radius: 1rem;
     width: 28em;
+}
+.portfolio-img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .portfolio-img h4, .portfolio-img h3{
     text-align: center;
 }
 .portfolio-img h3{
-    color:#ff4600;
+    color:#DF3661;
 }
 .portfolio-img .call {
     margin-bottom: 20px;
     padding-top: 0px!important;
+}
+.portfolio-img .btn.btn-azul{
+    color: #fff;
+    background:#B4676B;
+    border-color: #B4676B;
 }
 .img-port{
     border-radius:1em;
@@ -248,12 +287,12 @@ img {
 
 }
 .formacao h1{
-    color: #054f77;
+    color: #DF3661;
     text-transform: uppercase;
     padding-bottom: 10px;
 }
 .formacao-info p{
-    color: #ff4600;
+    color: #DF3661;
 }
 /**contato*/
 .contato-container{
@@ -267,14 +306,14 @@ img {
     align-content: space-between;
 }
 .contato-container h1{
-    color: #ff4600;
+    color: #DF3661;
     text-transform: uppercase;
     padding: 10px;
 }
 
 .contato-img {
-    margin: 10px;
-    box-shadow: 10px 11px 19px 5px #707070;
+    margin: 15px;
+    box-shadow: 2px 4px 7px 1px #b4676b;
     border-radius: 1rem;
     width: 28em;
     
@@ -292,20 +331,17 @@ img {
     padding-bottom: 20px;
 }
 .footer {
-    background: #054f77;
-     align-items: center;
+    background: transparent linear-gradient(58deg, #DF3661 12%, #B4676B 166%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-items: center;
     margin-top: 20px;
-}
-.footer img {
-    margin: 0 auto;
-    padding: 22px 54px 0px 127px;
-    max-width: 360px;
 }
 .footer p {
 	text-align: center;
 	font-size: 1.15em;
-    color: #fff;
-    padding-bottom: 20px;
+    color: #fff; 
+    font-weight: bold;
+    padding: 40px;
 }
 @media(max-width:960px){
     .menu {
@@ -320,36 +356,34 @@ img {
     .skills-container, .portfolio-container, .contato-container {
         padding: 60px 10px;
     }
-    
 }
 @media (min-width:661px) and (max-width:904px){
     .introducao-container h2 {
-        color: #054f77;
+        color: #B4676B;
         font-size: 3.65em;
-    }.introducao-container {
-        height: 487px;
+    }
+    .introducao-container {
+        height: 300px;
     }
 }
 @media (min-width:556px) and (max-width:660px){
     .introducao-container h2 {
         font-size: 3em;
     }.introducao-container {
-        height: 481px;
+        height: 300px;
     }
 }
 @media (max-width:555px) {
     .introducao-container h2 {
         font-size: 2.5em;
     }.introducao-container {
-        height: 481px;
+        height: 260px;
     }
 }
 @media only screen and (max-width: 880px){
     .menu-logo {
         padding: 31px;
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 22px 54px 0px 93px;
+        max-width: 30vh;
     }.menu-nav {
         margin: 0 auto;
         padding: 22px 0px 0px 77px;
@@ -364,6 +398,11 @@ img {
     .sobre-info, .formacao-info{
         padding: 10px;
     }
+    .sobre img {
+        max-width: 300px;
+        padding: 20px;
+        margin: 0 auto;
+    }
     .btn-principal {
         display: block;
     }
@@ -373,12 +412,25 @@ img {
     .skills-img img {
         width: 110px;
     }
+    .menu-bg {
+        top: 0;
+        width: 100%;
+        background: url(../img/bg.jpg) no-repeat center;
+        background-size: cover;
+        width: 88vh;
+    }
 
 }
-@media only screen and (min-width:399px) and  (max-width:459px){
+@media only screen and (min-width:400px) and  (max-width:459px){
+   
     .sobre-info p, .exp p {
         width: 380px;
         padding-right: 20px;
+    }
+    .sobre img {
+        max-width: 300px;
+        padding: 20px;
+        margin: 0 auto;
     }
     .btn {
         padding: 10px 21px;
@@ -395,18 +447,23 @@ img {
         font-size: 1em;
     }
     .introducao-container {
-        height: 447px;
+        height: 238px;
     }
     .btn-principal {
         display: block;
     }
 }
-@media(min-width:360px) and (max-width:398px){
+@media(min-width:360px) and (max-width:399px){
+    .sobre img {
+        max-width: 300px;
+        padding: 20px;
+        margin: 0 auto;
+    }
     .exp p, .sobre-info p{
         width: 321px;
     }
     .portfolio-img h3{
-        color: #ff4600;
+        color: #DF3661;
         font-size: 1.125em;
     }
     .introducao-container h2 {
@@ -416,7 +473,7 @@ img {
         font-size: 1em;
     }
     .introducao-container {
-        height: 443px;
+        height: 238px;
     }
     .menu-nav {
         margin: 0 auto;
@@ -431,6 +488,12 @@ img {
 @media(max-width:359px){
     .menu-bg {
         width: 73.82vh;
+    }
+    .sobre img {
+        max-width: 359px;
+        padding: 20px;
+        margin: 20px auto;
+        display: block;
     }
     .btn-principal {
         display: flex;
@@ -452,7 +515,7 @@ img {
         display: block;
     }
     .portfolio-img h3 {
-        color: #ff4600;
+        color: #DF3661;
         font-size: 1em;
     }
     .portfolio-img {
@@ -487,9 +550,6 @@ img {
         font-size: 1.25em;
     }
     .footer {
-        background: #054f77;
-        align-items: center;
-        margin-top: 20px;
-        width: 73.82vh;
+       width: 73.82vh;
     }
 }
