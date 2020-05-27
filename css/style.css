@@ -431,7 +431,7 @@ img {
 }
 @media(max-width:359px){
     .menu-bg {
-        width: 67vh;
+        width: 73.82vh;
     }
     .btn-principal {
         display: flex;
@@ -446,7 +446,7 @@ img {
         padding: 60px 0px;
     }
     .skills-img, .portfolio-img, .contato-img {
-        width: 63vh;
+        width: 69.4vh;
         margin-top: 20px;
     }
     .skills-grupo, .portfolio-grupo, .contato-grupo{
@@ -491,6 +491,6 @@ img {
         background: #054f77;
         align-items: center;
         margin-top: 20px;
-        width: 67vh;
+        width: 73.82vh;
     }
 }
