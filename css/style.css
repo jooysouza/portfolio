@@ -318,7 +318,7 @@ img {
     .skills-container {
         padding: 60px 10px;
     }
-    .portfolio-container, .contato-container {
+    .skills-container, .portfolio-container, .contato-container {
         padding: 60px 10px;
     }
     
@@ -403,11 +403,6 @@ img {
     }
 }
 @media(min-width:360px) and (max-width:398px){
-    .skills-container {
-        max-width: 360px;
-        margin: 0 auto;
-        padding: 60px 0;
-    }
     .exp p, .sobre-info p{
         width: 321px;
     }
