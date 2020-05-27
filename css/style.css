@@ -41,16 +41,15 @@ img {
     background:url(../img/bg.jpg) no-repeat center;
     background-size: cover;
 }
-.menu-logo{
+.menu-logo {
     padding: 31px;
-    max-width: 400px;
+    max-width: 40vh;
 }
 
 .menu{
     max-width: 960px;
-	margin: 0 auto;
-	padding: 15px 0;
-	display: flex;
+    margin: 0 auto;
+    display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
     align-items: center;
