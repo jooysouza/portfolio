@@ -1,2 +1,2 @@
-# https://jooysouza.github.io/portfolio/.
+# https://jooysouza.github.io/portfolio/
 
