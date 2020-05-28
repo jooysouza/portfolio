@@ -590,18 +590,16 @@ img {
     }
 }
 @media(max-width:359px){
-    .menu-bg {
-        width: 73.82vh;
-    }
     .sobre img {
-        max-width: 359px;
         padding: 20px;
         margin: 20px auto;
         display: block;
     }
     .btn-principal {
         display: flex;
-        padding-left: 10px;
+    }
+    .btn {
+        padding: 10px 25px;
     }
     .formacao-info h3{
         width: 300px;
@@ -612,7 +610,7 @@ img {
         padding: 60px 0px;
     }
     .skills-img, .portfolio-img, .contato-img {
-        width: 69.4vh;
+        max-width: 90%;
         margin-top: 20px;
     }
     .skills-grupo, .portfolio-grupo, .contato-grupo{
@@ -628,17 +626,14 @@ img {
     .contato-img {
         height: 14em;
     }
-    .btn {
-        padding: 10px 30px;
-    }
     .introducao-container p {
         font-size: 16px;
      }
      .introducao-container h2 {
         font-size: 1.8em;
     }
-    .exp p,  .sobre-info p  {
-        width: 300px;
+    .exp p, .exp h3, .exp h4, .sobre-info p, .formacao-info h3 {
+        max-width: 240px;
     }
     .sobre, .formacao {
         padding: 60px 16px;
@@ -653,7 +648,11 @@ img {
         text-align: center;
         font-size: 1.25em;
     }
-    .footer {
-       width: 73.82vh;
+    .footer p {
+        text-align: center;
+        font-size: 1em;
+        color: #fff;
+        padding: 40px;
     }
+    
 }
