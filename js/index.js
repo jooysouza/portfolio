@@ -1,11 +1,9 @@
-const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-  if(!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
-  }
-});
+
+var $menuHamburguer = document.querySelector('.menu-hamburguer'),
+    $spanHamburguer = document.querySelector('.span-hamburguer')
+    $menu = document.querySelector('.menu-nav');
+
+$menuHamburguer.addEventListener('click', function() {
+  this.classList.toggle('active');
+  $menu.classList.toggle('active');
+})
