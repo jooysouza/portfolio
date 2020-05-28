@@ -407,17 +407,18 @@ img {
     z-index: 1;
   }
 
-.span-hamburguer{
+  .span-hamburguer {
     content: '';
     display: block;
     width: 25px;
     height: 3px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 10px;
-    border-radius:5rem;
+    bottom: 14px;
+    right: 10px;
+    border-radius: 5rem;
     transition: all .5s ease-in-out;
-  }
+}
   .span-hamburguer:before {
     content: '';
     display: block;
