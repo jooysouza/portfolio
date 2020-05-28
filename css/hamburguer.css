@@ -1,0 +1,12 @@
+.menu{
+    background:#DF3661;
+    border-radius: 50%;
+    width:60%;
+    height:60%;
+    position: fixed;
+    bottom:25px;
+    right:25px;
+}
+.hamburguer{
+    display: block;
+}

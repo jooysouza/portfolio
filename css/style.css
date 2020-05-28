@@ -358,6 +358,7 @@ img {
 }
 /*MENU HAMBUGUER*/
 @media(max-width:780px){
+    
     .menu-nav a {
         font-size: 1.125em;
         font-weight: 700;
@@ -377,6 +378,7 @@ img {
     }
     .menu-nav ul {
         display: inline-block;
+        opacity: 0;
     }
     
     .menu-btn {
@@ -392,7 +394,7 @@ img {
     .menu-btn__burger {
         width: 50px;
         height: 6px;
-        background: #fff;
+        background: #B4676B;
         border-radius: 5px;
         transition: all .5s ease-in-out;
         z-index: 1;
@@ -404,10 +406,9 @@ img {
         position: absolute;
         width: 40px;
         height: 6px;
-        background: #fff;
+        background: #B4676B;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(255,101,47,.2);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
       }
       .menu-btn__burger::before {
         transform: translateY(-16px);
@@ -416,12 +417,13 @@ img {
         transform: translateY(16px);
       }
       /* ANIMATION */
-      .menu-btn.open .menu-btn__burger {
-        transform: translateX(-50px);
-        background: #b4676b;
-        box-shadow: 0 0 0 100vw #B4676B, 0 0 0 100vh #b4676b;
+      .menu-btn.open .menu-btn__burger{
+        transform: translateX(-30px);
+        background: #fff;
+        box-shadow: 0 0 0 100vw #fff, 0 0 0 100vh #fff;
+        
       }
-      .menu-btn.open .menu-btn__burger::before {
+     .menu-btn.open .menu-btn__burger::before {
         transform: rotate(45deg) translate(35px, -35px);
       }
       .menu-btn.open .menu-btn__burger::after {
