@@ -412,7 +412,7 @@ img {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: rgb(180, 103, 107);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 10px;
     border-radius:5rem;
@@ -423,7 +423,7 @@ img {
     display: block;
     width: 32px;
     height: 3px;
-    background-color: rgba(223, 54, 97);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 10px;
     border-radius:5rem;
@@ -435,7 +435,7 @@ img {
     display: block;
     width: 32px;
     height: 3px;
-    background-color: rgba(223, 54, 97);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 10px;
     border-radius:5rem;
