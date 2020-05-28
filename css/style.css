@@ -365,15 +365,13 @@ img {
     transform: translate(-50%, -50%);
     opacity: 0;
     visibility: hidden;
-    transition: .5s;
+    transition: .1s;
   }
-  
-  .menu-nav.active {
+.menu-nav.active {
     opacity: 1;
     visibility: visible;
     z-index: 1;
 }
-  
 .menu-nav ul {
     width: 100%;
     text-align: center;
@@ -384,40 +382,23 @@ img {
     list-style: none;
     margin-top: 50px;
   }
-  
   .menu-nav li a {
     color: #fff;
     font-size: 1.125em;
     text-decoration: none;
-    padding: 10px;
     transition: .1s;
-  }
-  
-  .menu-nav li a:hover {
+    margin: -44px auto;
+} 
+.menu-nav li a:hover {
     color: #DF3661;
   }
-  
   .menu-hamburguer {
-    padding: 20px 5px;
+    padding: 0px 15px;
     max-width: 30px;
     cursor: pointer;
     position: relative;
-    margin-right: 15px;
 }
-    
-  
-  
-  .span-hamburguer {
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5rem;
-    transition: all .5s ease-in-out;
-    z-index: 1;
-    
-  }
-  
-  .menu-hamburguer.active .span-hamburguer {
+.menu-hamburguer.active .span-hamburguer {
     width: 50px;
     height: 6px;
     background: #fff;
@@ -425,37 +406,39 @@ img {
     transition: all .5s ease-in-out;
     z-index: 1;
   }
-  
-  .span-hamburguer{
+
+.span-hamburguer{
     content: '';
     display: block;
     width: 25px;
     height: 3px;
-    background-color: rgba(223, 54, 97);
+    background-color: rgb(180, 103, 107);
     position: absolute;
     bottom: 10px;
+    border-radius:5rem;
     transition: all .5s ease-in-out;
   }
-  
   .span-hamburguer:before {
     content: '';
     display: block;
-    width: 25px;
+    width: 32px;
     height: 3px;
     background-color: rgba(223, 54, 97);
     position: absolute;
     bottom: 10px;
+    border-radius:5rem;
     transition: all .5s ease-in-out;
   }
   
   .span-hamburguer:after {
     content: '';
     display: block;
-    width: 25px;
+    width: 32px;
     height: 3px;
     background-color: rgba(223, 54, 97);
     position: absolute;
     top: 10px;
+    border-radius:5rem;
     transition: all .5s ease-in-out;
   }
   
