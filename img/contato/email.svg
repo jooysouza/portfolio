@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-  <g id="email" transform="translate(-5236 -2625)">
-    <path id="email-2" data-name="email" d="M90.625,59.882H9.375A9.385,9.385,0,0,0,0,69.257v56.25a9.385,9.385,0,0,0,9.375,9.375h81.25A9.385,9.385,0,0,0,100,125.507V69.257A9.385,9.385,0,0,0,90.625,59.882Zm0,6.25a3.107,3.107,0,0,1,1.2.242L50,102.622,8.177,66.374a3.111,3.111,0,0,1,1.2-.242Zm0,62.5H9.375a3.127,3.127,0,0,1-3.125-3.125V72.977l41.7,36.142a3.13,3.13,0,0,0,4.1,0l41.7-36.142v52.53A3.127,3.127,0,0,1,90.625,128.632Z" transform="translate(5236 2573.118)" fill="#df3661"/>
-    <rect id="Retângulo_68" data-name="Retângulo 68" width="100" height="100" transform="translate(5236 2625)" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="49.065" viewBox="0 0 50 49.065">
+  <g id="email" transform="translate(-5489 -2706)">
+    <g id="email-2" data-name="email" transform="translate(248 71)">
+      <path id="email-3" data-name="email" d="M36.25,59.882H3.75A3.754,3.754,0,0,0,0,63.632v22.5a3.754,3.754,0,0,0,3.75,3.75h32.5A3.754,3.754,0,0,0,40,86.132v-22.5A3.754,3.754,0,0,0,36.25,59.882Zm0,2.5a1.243,1.243,0,0,1,.479.1L20,76.978,3.271,62.479a1.244,1.244,0,0,1,.479-.1Zm0,25H3.75a1.251,1.251,0,0,1-1.25-1.25V65.12L19.181,79.577a1.252,1.252,0,0,0,1.638,0L37.5,65.12V86.132A1.251,1.251,0,0,1,36.25,87.382Z" transform="translate(5246 2585.118)" fill="#df3661" stroke="#df3661" stroke-width="1"/>
+    </g>
+    <rect id="Retângulo_72" data-name="Retângulo 72" width="50" height="49.065" transform="translate(5489 2706)" fill="none"/>
   </g>
 </svg>
