@@ -84,7 +84,7 @@ img {
 
 .menu-logo {
     padding: 31px;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .menu {
@@ -125,7 +125,7 @@ img {
 .introducao-container {
     margin: 0 auto;
     text-align: center;
-    height: 330px;
+    height: 251px;
 }
 
 .introducao-container span {
@@ -140,7 +140,7 @@ img {
 
 .introducao-container h2 {
     color: #B4676B;
-    font-size: 80px;
+    font-size: 40px;
     padding-top: 60px;
 }
 
@@ -522,16 +522,16 @@ img {
 @media (min-width:661px) and (max-width:904px) {
     .introducao-container h2 {
         color: #B4676B;
-        font-size: 3.65em;
+        font-size: 2.5em;
     }
     .introducao-container {
-        height: 300px;
+        height: 250px;
     }
 }
 
 @media (min-width:556px) and (max-width:660px) {
     .introducao-container h2 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .introducao-container {
         height: 300px;
@@ -540,7 +540,7 @@ img {
 
 @media (max-width:555px) {
     .introducao-container h2 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .introducao-container {
         height: 260px;
@@ -642,8 +642,8 @@ img {
         font-size: 1.125em;
     }
     .introducao-container h2 {
-        font-size: 1.875em;
-        margin-top: -63px;
+        font-size: 1.5em;
+        margin-top: -31px;
     }
     .introducao-container p {
         font-size: 1em;
@@ -664,6 +664,10 @@ img {
 }
 
 @media(max-width:359px) {
+    .menu-logo {
+        padding: 31px;
+        max-width: 155px;
+    }
     .sobre img {
         padding: 20px;
         margin: 20px auto;
@@ -711,7 +715,8 @@ img {
         font-size: 16px;
     }
     .introducao-container h2 {
-        font-size: 1.8em;
+        font-size: 1.5em;
+        margin-top: -58px;
     }
     .exp p,
     .exp h3,
