@@ -626,7 +626,7 @@ img {
 @media(min-width:360px) and (max-width:399px) {
     .menu-logo {
         margin-left: -20px;
-        max-width: 150px;
+        max-width: 180px;
     }
     .sobre img {
         max-width: 300px;
@@ -665,8 +665,8 @@ img {
 
 @media(max-width:359px) {
     .menu-logo {
-        padding: 31px;
-        max-width: 155px;
+        max-width: 180px;
+        margin-left: -20px;
     }
     .sobre img {
         padding: 20px;
