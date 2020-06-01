@@ -626,7 +626,7 @@ img {
 @media(min-width:360px) and (max-width:399px) {
     .menu-logo {
         margin-left: -20px;
-        max-width: 180px;
+        max-width: 200px;
     }
     .sobre img {
         max-width: 300px;
