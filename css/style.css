@@ -125,7 +125,7 @@ img {
 .introducao-container {
     margin: 0 auto;
     text-align: center;
-    height: 251px;
+    height: 190px;
 }
 
 .introducao-container span {
@@ -141,7 +141,6 @@ img {
 .introducao-container h2 {
     color: #B4676B;
     font-size: 40px;
-    padding-top: 60px;
 }
 
 .introducao-container p {
@@ -524,17 +523,11 @@ img {
         color: #B4676B;
         font-size: 2.5em;
     }
-    .introducao-container {
-        height: 250px;
-    }
 }
 
 @media (min-width:556px) and (max-width:660px) {
     .introducao-container h2 {
         font-size: 2.5em;
-    }
-    .introducao-container {
-        height: 300px;
     }
 }
 
@@ -542,15 +535,13 @@ img {
     .introducao-container h2 {
         font-size: 2em;
     }
-    .introducao-container {
-        height: 260px;
-    }
 }
 
 @media only screen and (max-width: 880px) {
     .menu-nav {
         margin: 0 auto;
-        padding: 22px 0px 0px 77px;
+        padding: 22px 0px 0px 0px;
+        font-size: 0.875em;
     }
 }
 
@@ -641,15 +632,11 @@ img {
         color: #DF3661;
         font-size: 1.125em;
     }
-    .introducao-container h2 {
-        font-size: 1.5em;
-        margin-top: -31px;
+    .introducao-container {
+        height: 165px;
     }
     .introducao-container p {
         font-size: 1em;
-    }
-    .introducao-container {
-        height: 238px;
     }
     .menu-nav {
         margin: 0 auto;
@@ -713,10 +700,6 @@ img {
     }
     .introducao-container p {
         font-size: 16px;
-    }
-    .introducao-container h2 {
-        font-size: 1.5em;
-        margin-top: -58px;
     }
     .exp p,
     .exp h3,
