@@ -1,2 +1,2 @@
-# https://www.joyaraujo.com.br
+#http://www.joyaraujo.com.br
 
