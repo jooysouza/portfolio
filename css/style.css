@@ -547,7 +547,7 @@ img {
     }
 }
 
-@media only screen and (min-width:460px) and (max-width:955px) {
+@media only screen and (min-width:460px) and (max-width:960px) {
     .sobre,
     .skills-container,
     .contato-container,
