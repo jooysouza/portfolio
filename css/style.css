@@ -325,6 +325,13 @@ img {
     border-radius: 1em;
 }
 
+.ver-proj {
+    text-decoration: none;
+    color: #DF3661;
+    font-weight: bold;
+    margin: 15px;
+}
+
 
 /*formação*/
 
