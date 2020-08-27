@@ -328,6 +328,10 @@ img {
     margin: 15px;
 }
 
+.img-port {
+    border-radius: 1em 1rem 0rem 0rem;
+}
+
 
 /*formação*/
 
