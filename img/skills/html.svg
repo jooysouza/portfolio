@@ -1,7 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="114.286" viewBox="0 0 100 114.286">
-  <g id="html" transform="translate(-32)">
-    <g id="Grupo_7" data-name="Grupo 7" transform="translate(32)">
-      <path id="Caminho_18" data-name="Caminho 18" d="M32,0l9.107,102.857L82,114.286l40.879-11.421L132,0Zm80.25,33.636H64.314l1.143,12.921h45.65L107.671,85.3,82,92.464l-.014.007L56.329,85.3l-1.8-20.264H67.1l.929,10.514,13.95,3.8L82,79.336l13.964-3.8,1.457-16.364H54.014L50.629,21.029h62.736Z" transform="translate(-32)" fill="#df3661"/>
-    </g>
-  </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="100" height="100" rx="10" fill="#DF3661"/>
+<path d="M77.7357 27.8L79 16H20L23.3714 52.2429H64.25L62.1429 66.9929L49.9214 70.7857L36.4357 66.9929L35.1714 57.7214H23.3714L25.0571 75.8429L49.9214 83.0072L73.5214 75.8429L76.4714 40.4429L33.4857 39.1786V27.8H77.7357Z" fill="white" stroke="white"/>
 </svg>

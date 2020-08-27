@@ -78,7 +78,7 @@ img {
 .menu-bg {
     top: 0;
     width: 100%;
-    background: url(../img/bg.jpg) no-repeat center;
+    background: url(../img/background.png) no-repeat center;
     background-size: cover;
 }
 
@@ -319,10 +319,6 @@ img {
     color: #fff;
     background: #B4676B;
     border-color: #B4676B;
-}
-
-.img-port {
-    border-radius: 1em;
 }
 
 .ver-proj {
@@ -586,7 +582,7 @@ img {
     .menu-bg {
         top: 0;
         width: 100%;
-        background: url(../img/bg.jpg) no-repeat center;
+        background: url(../img/background.png) no-repeat center;
         background-size: cover;
     }
 }
