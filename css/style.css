@@ -585,6 +585,12 @@ MENU HAMBUGUER
     }
 }
 
+@media only screen and (min-width: 460px) and (max-width: 786px) {
+    .menu-logo {
+        max-width: 100px;
+    }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 459px) {
     .sobre-info p,
     .exp p {
@@ -612,11 +618,14 @@ MENU HAMBUGUER
     .introducao-container {
         height: 238px;
     }
+    .menu-logo {
+        max-width: 100px;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 399px) {
     .menu-logo {
-        max-width: 200px;
+        max-width: 100px;
     }
     .sobre img {
         max-width: 300px;
@@ -648,7 +657,7 @@ MENU HAMBUGUER
 
 @media (max-width: 359px) {
     .menu-logo {
-        max-width: 180px;
+        max-width: 100px;
     }
     .sobre img {
         padding: 20px;
