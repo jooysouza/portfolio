@@ -615,9 +615,6 @@ MENU HAMBUGUER
     .introducao-container p {
         font-size: 1em;
     }
-    .introducao-container {
-        height: 238px;
-    }
     .menu-logo {
         max-width: 100px;
     }
@@ -639,9 +636,6 @@ MENU HAMBUGUER
     .portfolio-img h3 {
         color: #106467;
         font-size: 1.125em;
-    }
-    .introducao-container {
-        height: 165px;
     }
     .introducao-container p {
         font-size: 1em;
